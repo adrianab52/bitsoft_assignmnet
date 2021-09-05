@@ -8,7 +8,7 @@ actor: AcceptanceTester
 modules:
     enabled:
         - WebDriver:
-            url: https://www.google.ro/
+            url: https://accounts.google.com
             browser: chrome
             window_size: maximaze
             port: 1234
