@@ -1,22 +1,22 @@
 <?php return array(
     'root' => array(
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
+        'pretty_version' => 'dev-main',
+        'version' => 'dev-main',
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => NULL,
+        'reference' => '191707cf3bf15d8be65f195851c8c9d475463bee',
         'name' => '__root__',
         'dev' => true,
     ),
     'versions' => array(
         '__root__' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
+            'pretty_version' => 'dev-main',
+            'version' => 'dev-main',
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => NULL,
+            'reference' => '191707cf3bf15d8be65f195851c8c9d475463bee',
             'dev_requirement' => false,
         ),
         'behat/gherkin' => array(
@@ -73,6 +73,15 @@
             'reference' => '770a6be4160a5c0c08d100dd51bff35f6056bbf1',
             'dev_requirement' => true,
         ),
+        'codeception/module-webdriver' => array(
+            'pretty_version' => '1.4.0',
+            'version' => '1.4.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../codeception/module-webdriver',
+            'aliases' => array(),
+            'reference' => 'baa18b7bf70aa024012f967b5ce5021e1faa9151',
+            'dev_requirement' => true,
+        ),
         'codeception/phpunit-wrapper' => array(
             'pretty_version' => '9.0.6',
             'version' => '9.0.6.0',
@@ -99,6 +108,12 @@
             'aliases' => array(),
             'reference' => 'd56bf6102915de5702778fe20f2de3b2fe570b5b',
             'dev_requirement' => true,
+        ),
+        'facebook/webdriver' => array(
+            'dev_requirement' => true,
+            'replaced' => array(
+                0 => '*',
+            ),
         ),
         'guzzlehttp/guzzle' => array(
             'pretty_version' => '7.3.0',
@@ -164,6 +179,15 @@
             'install_path' => __DIR__ . '/../phar-io/version',
             'aliases' => array(),
             'reference' => 'bae7c545bef187884426f042434e561ab1ddb182',
+            'dev_requirement' => true,
+        ),
+        'php-webdriver/webdriver' => array(
+            'pretty_version' => '1.11.1',
+            'version' => '1.11.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../php-webdriver/webdriver',
+            'aliases' => array(),
+            'reference' => 'da16e39968f8dd5cfb7d07eef91dc2b731c69880',
             'dev_requirement' => true,
         ),
         'phpdocumentor/reflection-common' => array(
@@ -614,6 +638,15 @@
             'install_path' => __DIR__ . '/../symfony/polyfill-php80',
             'aliases' => array(),
             'reference' => '1100343ed1a92e3a38f9ae122fc0eb21602547be',
+            'dev_requirement' => true,
+        ),
+        'symfony/process' => array(
+            'pretty_version' => 'v5.3.7',
+            'version' => '5.3.7.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../symfony/process',
+            'aliases' => array(),
+            'reference' => '38f26c7d6ed535217ea393e05634cb0b244a1967',
             'dev_requirement' => true,
         ),
         'symfony/service-contracts' => array(
