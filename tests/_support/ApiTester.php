@@ -23,8 +23,9 @@ class ApiTester extends \Codeception\Actor
     /**
      * Define custom actions here
      */
-    public function haveHttpHeader(string $string, string $string1)
+    public function haveHttpHeader($name, $value)
     {
+        $this->headers[$name] = $value;
     }
 
     public function amHttpAuthenticated(string $string, string $string1)
@@ -41,5 +42,15 @@ class ApiTester extends \Codeception\Actor
 
     public function seeResponseIsJson()
     {
+    }
+
+    public function seeResponseContains($text)
+    {
+        $this->assertContains($text, $this->response, "REST response contains");
+    }
+
+    public function sendGET($url, $params = [])
+    {
+        $this->execute('GET', $url, $params);
     }
 }
