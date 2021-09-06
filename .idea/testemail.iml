@@ -75,6 +75,9 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/php-webdriver/webdriver" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/process" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/module-webdriver" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/codeception/module-rest" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/softcreatr/jsonpath" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/justinrainbow/json-schema" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
