@@ -4,7 +4,20 @@ namespace Page\Acceptance;
 class TestEmailPage
 {
     // include url of current page
-    public static $URL = '';
+    public static $URL = '/AccountChooser/signinchooser?service=mail&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&flowName=GlifWebSignIn&flowEntry=AccountChooser';
+    public static $email = '#identifierId';
+    public static $nextButton = "//span[contains(text(),'Înainte')]";
+    public static $password = '//*[@id="password"]/div[1]/div/div[1]/input';
+    public static $nextButton2 = '#passwordNext';
+    public static $composeButton = "//div[contains(text(),'Compose')]";
+    public static $inbox = "//a[contains(text(),'Inbox')]";
+    public static $checkButton = '#\:27';
+    public static $sendTo = '#\:9e';
+    public static $subject = '#\:8w';
+    public static $bodyEmail = '#\:a2';
+    public static $sendButton = '#\:8m';
+    public static $sentEmails = '#\:47 > div > div.aio.UKr6le';
+
 
     /**
      * Declare UI map for this page here. CSS or XPath allowed.

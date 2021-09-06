@@ -5,7 +5,7 @@
         'type' => 'library',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '191707cf3bf15d8be65f195851c8c9d475463bee',
+        'reference' => '08884d13a77e120e8e033ff1989c0e5454cc9521',
         'name' => '__root__',
         'dev' => true,
     ),
@@ -16,7 +16,7 @@
             'type' => 'library',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '191707cf3bf15d8be65f195851c8c9d475463bee',
+            'reference' => '08884d13a77e120e8e033ff1989c0e5454cc9521',
             'dev_requirement' => false,
         ),
         'behat/gherkin' => array(
@@ -73,6 +73,15 @@
             'reference' => '770a6be4160a5c0c08d100dd51bff35f6056bbf1',
             'dev_requirement' => true,
         ),
+        'codeception/module-rest' => array(
+            'pretty_version' => '1.3.1',
+            'version' => '1.3.1.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../codeception/module-rest',
+            'aliases' => array(),
+            'reference' => '293a0103d5257b7c884ef276147a9a06914e878f',
+            'dev_requirement' => true,
+        ),
         'codeception/module-webdriver' => array(
             'pretty_version' => '1.4.0',
             'version' => '1.4.0.0',
@@ -115,6 +124,12 @@
                 0 => '*',
             ),
         ),
+        'flow/jsonpath' => array(
+            'dev_requirement' => true,
+            'replaced' => array(
+                0 => '*',
+            ),
+        ),
         'guzzlehttp/guzzle' => array(
             'pretty_version' => '7.3.0',
             'version' => '7.3.0.0',
@@ -140,6 +155,15 @@
             'install_path' => __DIR__ . '/../guzzlehttp/psr7',
             'aliases' => array(),
             'reference' => '1dc8d9cba3897165e16d12bb13d813afb1eb3fe7',
+            'dev_requirement' => true,
+        ),
+        'justinrainbow/json-schema' => array(
+            'pretty_version' => '5.2.11',
+            'version' => '5.2.11.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../justinrainbow/json-schema',
+            'aliases' => array(),
+            'reference' => '2ab6744b7296ded80f8cc4f9509abbff393399aa',
             'dev_requirement' => true,
         ),
         'myclabs/deep-copy' => array(
@@ -506,6 +530,15 @@
             'install_path' => __DIR__ . '/../sebastian/version',
             'aliases' => array(),
             'reference' => 'c6c1022351a901512170118436c764e473f6de8c',
+            'dev_requirement' => true,
+        ),
+        'softcreatr/jsonpath' => array(
+            'pretty_version' => '0.7.5',
+            'version' => '0.7.5.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../softcreatr/jsonpath',
+            'aliases' => array(),
+            'reference' => '008569bf80aa3584834f7890781576bc7b65afa7',
             'dev_requirement' => true,
         ),
         'symfony/browser-kit' => array(
