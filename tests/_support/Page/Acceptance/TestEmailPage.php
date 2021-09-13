@@ -17,6 +17,7 @@ class TestEmailPage
     public static $bodyEmail = '#\:a2';
     public static $sendButton = '#\:8m';
     public static $sentEmails = '#\:47 > div > div.aio.UKr6le';
+    public static $apiKey=' dV6ui3QojaGN6EXVtLFguv8-LxN9RteE4HN2zX97fPQ';
 
 
     /**
