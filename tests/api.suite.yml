@@ -2,7 +2,7 @@ actor: ApiTester
 modules:
     enabled:
         - REST:
-                url: &url 'https://maps.googleapis.com/maps/api/geocode/'
+                url: &url 'https://geocode.search.hereapi.com/v1/geocode'
                 depends: PhpBrowser
         - \Helper\Api
     config:
